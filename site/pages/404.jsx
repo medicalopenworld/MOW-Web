@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import { withBasePath } from "../lib/base-path.mjs";
 
@@ -23,14 +22,11 @@ const content = {
 };
 
 export default function Custom404() {
-  const router = useRouter();
   const [lang, setLang] = useState("es");
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const isEnglish = window.location.pathname.startsWith("/en");
-      setLang(isEnglish ? "en" : "es");
-    }
+    const isEnglish = window.location.pathname.startsWith("/en");
+    setLang(isEnglish ? "en" : "es");
   }, []);
 
   const t = content[lang];
