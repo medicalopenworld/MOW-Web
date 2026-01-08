@@ -28,7 +28,7 @@
 				<div class="elementor-element elementor-element-3975804 elementor-widget elementor-widget-heading" data-id="3975804" data-element_type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default">Who We Are</h2>				</div>
 				<div class="elementor-element elementor-element-8259b03 elementor-widget elementor-widget-text-editor" data-id="8259b03" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Somos Medical Open World, una ONG que crea tecnología médica accesible como IncuNest, una incubadora que cuesta 96% menos que las comerciales. Ya tenemos 230 incubadoras en 37 países y hemos salvado más de 4.500 vidas.</p>								</div>
+									<p>We are Medical Open World, an NGO that creates accessible medical technology such as IncuNest, an incubator that costs 96% less than commercial ones. We already have 230 incubators in 37 countries and have saved more than 4,500 lives.</p>								</div>
 				<div class="elementor-element elementor-element-49d0305 elementor-align-left elementor-mobile-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="49d0305" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
 										<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="/en/quienes-somos/">
 						<span class="elementor-button-content-wrapper">
@@ -235,14 +235,14 @@
 				<div class="elementor-post__text">
 				<h3 class="elementor-post__title">
 			<a href="/en/articulo-03/">
-				De In3ator a IncuNest: una incubadora que crece, cambia y salva vidas&nbsp;			</a>
+				From In3ator to IncuNest: An Incubator That Grows, Evolves and Saves Lives&nbsp;			</a>
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>From In3ator to Incunest: An Incubator That Grows, Evolves and Saves Lives When a young Spanish engineer built the first version of a low-cost neonatal</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="/en/articulo-03/" aria-label="Más información sobre De In3ator a IncuNest: una incubadora que crece, cambia y salva vidas&nbsp;" tabindex="-1" data-no-translation-aria-label="">
-			Leer Más »		</a>
+		<a class="elementor-post__read-more" href="/en/articulo-03/" aria-label="More information about From In3ator to IncuNest: An Incubator That Grows, Evolves and Saves Lives" tabindex="-1" data-no-translation-aria-label="">
+			Read More »		</a>
 
 				</div>
 					</div>
@@ -253,14 +253,14 @@
 				<div class="elementor-post__text">
 				<h3 class="elementor-post__title">
 			<a href="/en/articulo-02/">
-				Medical Open World celebra su incubadora número 200 en Senegal y lanza una campaña para multiplicar su impacto			</a>
+				Medical Open World Celebrates Its 200th Incubator in Senegal and launches a Campaign to Multiply Its Impact			</a>
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Medical Open World Celebrates Its 200th Incubator in Senegal and launches a Campaign to Multiply Its Impact Medical Open World, the NGO dedicated to democratizing</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="/en/articulo-02/" aria-label="Más información sobre Medical Open World celebra su incubadora número 200 en Senegal y lanza una campaña para multiplicar su impacto" tabindex="-1" data-no-translation-aria-label="">
-			Leer Más »		</a>
+		<a class="elementor-post__read-more" href="/en/articulo-02/" aria-label="More information about Medical Open World Celebrates Its 200th Incubator in Senegal and launches a Campaign to Multiply Its Impact" tabindex="-1" data-no-translation-aria-label="">
+			Read More »		</a>
 
 				</div>
 					</div>
@@ -271,14 +271,14 @@
 				<div class="elementor-post__text">
 				<h3 class="elementor-post__title">
 			<a href="/en/articulo-01/">
-				Pablo Sanchez gana el Premio Princesa de Girona Social 2025			</a>
+				Pablo Sanchez wins the 2025 Princess of Girona Social Award			</a>
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Pablo Sanchez wins the 2025 Princess of Girona Social Award Pablo Sánchez Bergasa, an engineer from Navarre and founder of Medical Open World., has been</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="/en/articulo-01/" aria-label="Más información sobre Pablo Sanchez gana el Premio Princesa de Girona Social 2025" tabindex="-1" data-no-translation-aria-label="">
-			Leer Más »		</a>
+		<a class="elementor-post__read-more" href="/en/articulo-01/" aria-label="More information about Pablo Sanchez wins the 2025 Princess of Girona Social Award" tabindex="-1" data-no-translation-aria-label="">
+			Read More »		</a>
 
 				</div>
 					</div>
@@ -366,11 +366,11 @@
 									<p>"Saving premature lives is possible. You can be part of the change."</p>								</div>
 		<div class="elementor-element elementor-element-f9ef1da e-grid e-con-full e-con e-child" data-id="f9ef1da" data-element_type="container">
 				<div class="elementor-element elementor-element-5f684cb elementor-widget elementor-widget-heading" data-id="5f684cb" data-element_type="widget" data-widget_type="heading.default">
-					<h3 class="elementor-heading-title elementor-size-default">Hazte socio por menos de <br>lo que te cuesta un café</h3>				</div>
+					<h3 class="elementor-heading-title elementor-size-default">Become a member for less than <br>the cost of a coffee</h3>				</div>
 				<div class="elementor-element elementor-element-4665481 elementor-align-left elementor-widget elementor-widget-button" data-id="4665481" data-element_type="widget" data-widget_type="button.default">
 										<a class="elementor-button elementor-button-link elementor-size-sm" href="/en/dona/">
 						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">DONA VIDA HOY!  </span>
+									<span class="elementor-button-text">DONATE LIFE TODAY!  </span>
 					</span>
 					</a>
 								</div>

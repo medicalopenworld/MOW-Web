@@ -10,14 +10,14 @@
 				<div class="elementor-post__text">
 				<h3 class="elementor-post__title">
 			<a href="/en/articulo-03/">
-				De In3ator a IncuNest: una incubadora que crece, cambia y salva vidas&nbsp;			</a>
+				From In3ator to IncuNest: An Incubator That Grows, Evolves and Saves Lives&nbsp;			</a>
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>From In3ator to Incunest: An Incubator That Grows, Evolves and Saves Lives When a young Spanish engineer built the first version of a low-cost neonatal</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="/en/articulo-03/" aria-label="Más información sobre De In3ator a IncuNest: una incubadora que crece, cambia y salva vidas&nbsp;" tabindex="-1" data-no-translation-aria-label="">
-			Leer Más »		</a>
+		<a class="elementor-post__read-more" href="/en/articulo-03/" aria-label="More information about From In3ator to IncuNest: An Incubator That Grows, Evolves and Saves Lives" tabindex="-1" data-no-translation-aria-label="">
+			Read More »		</a>
 
 				</div>
 					</div>
@@ -28,14 +28,14 @@
 				<div class="elementor-post__text">
 				<h3 class="elementor-post__title">
 			<a href="/en/articulo-02/">
-				Medical Open World celebra su incubadora número 200 en Senegal y lanza una campaña para multiplicar su impacto			</a>
+				Medical Open World Celebrates Its 200th Incubator in Senegal and launches a Campaign to Multiply Its Impact			</a>
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Medical Open World Celebrates Its 200th Incubator in Senegal and launches a Campaign to Multiply Its Impact Medical Open World, the NGO dedicated to democratizing</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="/en/articulo-02/" aria-label="Más información sobre Medical Open World celebra su incubadora número 200 en Senegal y lanza una campaña para multiplicar su impacto" tabindex="-1" data-no-translation-aria-label="">
-			Leer Más »		</a>
+		<a class="elementor-post__read-more" href="/en/articulo-02/" aria-label="More information about Medical Open World Celebrates Its 200th Incubator in Senegal and launches a Campaign to Multiply Its Impact" tabindex="-1" data-no-translation-aria-label="">
+			Read More »		</a>
 
 				</div>
 					</div>
@@ -46,14 +46,14 @@
 				<div class="elementor-post__text">
 				<h3 class="elementor-post__title">
 			<a href="/en/articulo-01/">
-				Pablo Sanchez gana el Premio Princesa de Girona Social 2025			</a>
+				Pablo Sanchez wins the 2025 Princess of Girona Social Award			</a>
 		</h3>
 				<div class="elementor-post__excerpt">
 			<p>Pablo Sanchez wins the 2025 Princess of Girona Social Award Pablo Sánchez Bergasa, an engineer from Navarre and founder of Medical Open World., has been</p>
 		</div>
 		
-		<a class="elementor-post__read-more" href="/en/articulo-01/" aria-label="Más información sobre Pablo Sanchez gana el Premio Princesa de Girona Social 2025" tabindex="-1" data-no-translation-aria-label="">
-			Leer Más »		</a>
+		<a class="elementor-post__read-more" href="/en/articulo-01/" aria-label="More information about Pablo Sanchez wins the 2025 Princess of Girona Social Award" tabindex="-1" data-no-translation-aria-label="">
+			Read More »		</a>
 
 				</div>
 					</div>

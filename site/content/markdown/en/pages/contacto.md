@@ -1,7 +1,7 @@
 <div class="elementor-element elementor-element-6083cb8 e-flex e-con-boxed e-con e-parent" data-id="6083cb8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-064de41 elementor-widget elementor-widget-heading" data-id="064de41" data-element_type="widget" data-widget_type="heading.default">
-					<h1 class="elementor-heading-title elementor-size-default">CONTÁCTANOS</h1>				</div>
+					<h1 class="elementor-heading-title elementor-size-default">CONTACT US</h1>				</div>
 				<div class="elementor-element elementor-element-af8fd63 elementor-widget__width-initial elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="af8fd63" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 							<form class="elementor-form" method="post" name="New Form" action="">
 			<input type="hidden" name="post_id" value="69">
@@ -47,7 +47,7 @@
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-49c77d1 e-grid e-con-full e-con e-child" data-id="49c77d1" data-element_type="container">
 				<div class="elementor-element elementor-element-b83bff0 elementor-widget elementor-widget-heading" data-id="b83bff0" data-element_type="widget" data-widget_type="heading.default">
-					<h3 class="elementor-heading-title elementor-size-default">Inscribete para recibir nuestro Newsletter</h3>				</div>
+					<h3 class="elementor-heading-title elementor-size-default">Sign up to receive our Newsletter</h3>				</div>
 				<div class="elementor-element elementor-element-b4a10c8 elementor-widget__width-initial elementor-button-align-stretch elementor-invisible elementor-widget elementor-widget-form" data-id="b4a10c8" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;50&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 							<form class="elementor-form" method="post" name="Newsletter" action="">
 			<input type="hidden" name="post_id" value="69">
