@@ -6,25 +6,25 @@
 					<h3 class="elementor-heading-title elementor-size-default">Donate today. Share. Be part of the change</h3>				</div>
 				<div class="elementor-element elementor-element-b9fa86e elementor-widget elementor-widget-text-editor" data-id="b9fa86e" data-element_type="widget" data-widget_type="text-editor.default">
 									<p data-start="123" data-end="302" class="translation-block">1.5 million babies die every year simply because they don’t have an incubator.
-They die from the cold. From being born in the wrong place.</p><p data-start="123" data-end="302"><em data-start="417" data-end="427">IncuNest</em> les da el calor que necesitan.&nbsp;</p><p data-start="123" data-end="302">Tenemos 230 incubadoras en 37 paises que han salvado miles de vidas,&nbsp;</p><p data-start="123" data-end="302">pero la necesitan millones.&nbsp;</p><p data-start="606" data-end="651">¡Queremos lograr en un año lo que nos tomo diez!&nbsp;</p><p data-start="606" data-end="651">We need your help to make it happen.</p><p data-start="606" data-end="651"><strong data-start="606" data-end="651">¡Give the gift of life!</strong></p>								</div>
+They die from the cold. From being born in the wrong place.</p><p data-start="123" data-end="302"><em data-start="417" data-end="427">IncuNest</em> gives them the warmth they need.&nbsp;</p><p data-start="123" data-end="302">We have 230 incubators in 37 countries that have saved thousands of lives,&nbsp;</p><p data-start="123" data-end="302">but millions need them.&nbsp;</p><p data-start="606" data-end="651">We want to achieve in one year what took us ten!&nbsp;</p><p data-start="606" data-end="651">We need your help to make it happen.</p><p data-start="606" data-end="651"><strong data-start="606" data-end="651">Give the gift of life!</strong></p>								</div>
 				<div class="elementor-element elementor-element-5e9ed77 elementor-align-center elementor-mobile-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="5e9ed77" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
 										<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://www.ihelp.org.es/causa/ayudanos-a-salvar-vidas-apoya-la-sostenibilidad-de-medical-open-world/" target="_blank" id="donate-btn">
 						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Haz una donación puntual</span>
+									<span class="elementor-button-text">Make a One-Time Donation</span>
 					</span>
 					</a>
 								</div>
 				<div class="elementor-element elementor-element-43eb632 elementor-align-center elementor-mobile-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="43eb632" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
 										<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://forms.monday.com/forms/3863b897f8690f51287cf301f1c90268?r=euc1" target="_blank" id="donate-btn">
 						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Haz una donación recurrente</span>
+									<span class="elementor-button-text">Make a Recurring Donation</span>
 					</span>
 					</a>
 								</div>
 		<div class="elementor-element elementor-element-fd9767f e-grid e-con-full elementor-invisible e-con e-child" data-id="fd9767f" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
 				<div class="elementor-element elementor-element-583f8b1 elementor-widget elementor-widget-counter" data-id="583f8b1" data-element_type="widget" data-widget_type="counter.default">
 							<div class="elementor-counter">
-			<div class="elementor-counter-title">Donación de materiales</div>			<div class="elementor-counter-number-wrapper">
+			<div class="elementor-counter-title">Material Donations</div>			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
 				<span class="elementor-counter-number" data-duration="2000" data-to-value="300" data-from-value="0" data-delimiter=",">0</span>
 				<span class="elementor-counter-number-suffix">+</span>
@@ -33,7 +33,7 @@ They die from the cold. From being born in the wrong place.</p><p data-start="12
 						</div>
 				<div class="elementor-element elementor-element-793dbfb elementor-widget elementor-widget-counter" data-id="793dbfb" data-element_type="widget" data-widget_type="counter.default">
 							<div class="elementor-counter">
-			<div class="elementor-counter-title">Incubadoras financiadas 100%</div>			<div class="elementor-counter-number-wrapper">
+			<div class="elementor-counter-title">Incubators 100% Funded</div>			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
 				<span class="elementor-counter-number" data-duration="2000" data-to-value="0" data-from-value="0.33" data-delimiter=",">0.33</span>
 				<span class="elementor-counter-number-suffix"></span>
@@ -42,7 +42,7 @@ They die from the cold. From being born in the wrong place.</p><p data-start="12
 						</div>
 				<div class="elementor-element elementor-element-3947643 elementor-widget elementor-widget-counter" data-id="3947643" data-element_type="widget" data-widget_type="counter.default">
 							<div class="elementor-counter">
-			<div class="elementor-counter-title">Incubadoras enviadas 2026</div>			<div class="elementor-counter-number-wrapper">
+			<div class="elementor-counter-title">Incubators Sent 2026</div>			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
 				<span class="elementor-counter-number" data-duration="2000" data-to-value="0" data-from-value="0" data-delimiter=",">0</span>
 				<span class="elementor-counter-number-suffix"></span>
