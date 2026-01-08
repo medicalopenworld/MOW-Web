@@ -198,8 +198,16 @@ function buildAssetPaths(url) {
 
   return {
     fsPath: path.join(PUBLIC_DIR, finalPath),
-    publicPath: prefixBasePath(`/remote-assets/${finalPath}`)
+    publicPath: prefixBasePath(`/remote-assets/${finalPath}`),
+    relativePath: finalPath
   };
+}
+
+function computeRelativePath(fromFsPath, toFsPath) {
+  const fromDir = path.dirname(fromFsPath);
+  const relativePath = path.relative(fromDir, toFsPath);
+  // Normalize to forward slashes for CSS
+  return relativePath.split(path.sep).join("/");
 }
 
 async function fetchText(url) {
@@ -216,13 +224,13 @@ async function downloadAsset(url) {
   }
 
   const { fsPath, publicPath } = buildAssetPaths(url);
-  downloaded.set(url, publicPath);
+  downloaded.set(url, { publicPath, fsPath });
 
   try {
     const response = await fetch(url, { redirect: "follow" });
     if (!response.ok) {
       console.warn(`Skipping asset ${url}: ${response.status}`);
-      return publicPath;
+      return { publicPath, fsPath };
     }
 
     const buffer = Buffer.from(await response.arrayBuffer());
@@ -236,7 +244,7 @@ async function downloadAsset(url) {
     console.warn(`Failed to download ${url}: ${error.message}`);
   }
 
-  return publicPath;
+  return { publicPath, fsPath };
 }
 
 async function rewriteCssFile(filePath, cssUrl) {
@@ -246,7 +254,7 @@ async function rewriteCssFile(filePath, cssUrl) {
 
   rewritingCss.add(filePath);
   const cssText = await fs.readFile(filePath, "utf8");
-  const updated = await rewriteCssText(cssText, cssUrl);
+  const updated = await rewriteCssText(cssText, cssUrl, filePath);
 
   if (updated !== cssText) {
     await fs.writeFile(filePath, updated);
@@ -255,7 +263,7 @@ async function rewriteCssFile(filePath, cssUrl) {
   rewritingCss.delete(filePath);
 }
 
-async function rewriteCssText(cssText, baseUrl) {
+async function rewriteCssText(cssText, baseUrl, cssFilePath = null) {
   let updated = cssText;
   const urlRegex = /url\(([^)]+)\)/gi;
   const matches = [...cssText.matchAll(urlRegex)];
@@ -275,8 +283,12 @@ async function rewriteCssText(cssText, baseUrl) {
     }
 
     if (isInternal(resolved)) {
-      const local = await downloadAsset(resolved);
-      updated = updated.replace(match[0], `url(${local})`);
+      const { publicPath, fsPath } = await downloadAsset(resolved);
+      // Use relative path for external CSS files, absolute path for inline styles
+      const localPath = cssFilePath
+        ? computeRelativePath(cssFilePath, fsPath)
+        : publicPath;
+      updated = updated.replace(match[0], `url(${localPath})`);
     }
   }
 
@@ -296,8 +308,12 @@ async function rewriteCssText(cssText, baseUrl) {
     }
 
     if (isInternal(resolved)) {
-      const local = await downloadAsset(resolved);
-      updated = updated.replace(match[0], `@import url(${local})`);
+      const { publicPath, fsPath } = await downloadAsset(resolved);
+      // Use relative path for external CSS files, absolute path for inline styles
+      const localPath = cssFilePath
+        ? computeRelativePath(cssFilePath, fsPath)
+        : publicPath;
+      updated = updated.replace(match[0], `@import url(${localPath})`);
     }
   }
 
@@ -388,8 +404,8 @@ async function rewriteDomAssets($, pageUrl) {
       continue;
     }
     if (isInternal(resolved)) {
-      const local = await downloadAsset(resolved);
-      $el.attr("src", local);
+      const { publicPath } = await downloadAsset(resolved);
+      $el.attr("src", publicPath);
     }
   }
 
@@ -413,8 +429,8 @@ async function rewriteDomAssets($, pageUrl) {
     const tagName = element.tagName?.toLowerCase();
     if (tagName === "a") {
       if (looksLikeAsset(resolved)) {
-        const local = await downloadAsset(resolved);
-        $el.attr("href", local);
+        const { publicPath } = await downloadAsset(resolved);
+        $el.attr("href", publicPath);
         continue;
       }
 
@@ -428,8 +444,8 @@ async function rewriteDomAssets($, pageUrl) {
     }
 
     if (looksLikeAsset(resolved)) {
-      const local = await downloadAsset(resolved);
-      $el.attr("href", local);
+      const { publicPath } = await downloadAsset(resolved);
+      $el.attr("href", publicPath);
     }
   }
 
@@ -457,8 +473,8 @@ async function rewriteDomAssets($, pageUrl) {
         continue;
       }
 
-      const local = await downloadAsset(resolved);
-      rewritten.push(descriptor ? `${local} ${descriptor}` : local);
+      const { publicPath } = await downloadAsset(resolved);
+      rewritten.push(descriptor ? `${publicPath} ${descriptor}` : publicPath);
     }
 
     if (rewritten.length) {
