@@ -38,6 +38,20 @@ export default function Custom404() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex, nofollow" />
+        <link
+          rel="icon"
+          href={withBasePath("/remote-assets/wp-content/uploads/2025/07/cropped-Screenshot_84-32x32.png")}
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          href={withBasePath("/remote-assets/wp-content/uploads/2025/07/cropped-Screenshot_84-192x192.png")}
+          sizes="192x192"
+        />
+        <link
+          rel="apple-touch-icon"
+          href={withBasePath("/remote-assets/wp-content/uploads/2025/07/cropped-Screenshot_84-180x180.png")}
+        />
       </Head>
       <div style={styles.container}>
         <div style={styles.content}>
