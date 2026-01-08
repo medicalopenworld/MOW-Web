@@ -1,6 +1,6 @@
-# Medical Open World static snapshot
+# Medical Open World Web Site
 
-This repo keeps a static Next.js site that renders scraped WordPress snapshots plus Markdown overrides.
+This repo keeps a static Next.js site, editable through markdown files, that renders scraped WordPress snapshots from original MOW site plus Markdown overrides.
 
 ## Structure
 
