@@ -27,8 +27,11 @@ export function prefixPathsInHtml(html) {
   // Use negative lookahead to avoid double-prefixing paths that already have the base path
   const hrefSrcPattern = new RegExp(`(href|src|srcset)=(["'])/(?!${escapedBasePath.slice(1)}/)(?!/)`, "g");
   const urlPattern = new RegExp(`(url\\()(['"]?)/(?!${escapedBasePath.slice(1)}/)(?!/)`, "g");
+  // Pattern for additional paths in srcset (paths after commas with optional space)
+  const srcsetPathPattern = new RegExp(`(,\\s*)/(?!${escapedBasePath.slice(1)}/)(?!/)`, "g");
   return html
     .replace(hrefSrcPattern, `$1=$2${BASE_PATH}/`)
+    .replace(srcsetPathPattern, `$1${BASE_PATH}/`)
     .replace(urlPattern, `$1$2${BASE_PATH}/`);
 }
 
