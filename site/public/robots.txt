@@ -1,0 +1,6 @@
+# Medical Open World - Development Site
+# This site is under review and should not be indexed by search engines
+# Official site: http://www.medicalopenworld.org/
+
+User-agent: *
+Disallow: /
